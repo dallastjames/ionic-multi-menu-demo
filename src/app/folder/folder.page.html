@@ -15,7 +15,12 @@
   </ion-header>
 
   <div id="container">
-    <strong class="capitalize">{{ folder }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <ion-button color="primary" (click)="menu('main-menu')">Menu 1</ion-button>
+    <ion-button color="primary" (click)="menu('notifications-menu')"
+      >Menu 2</ion-button
+    >
+    <ion-button color="primary" (click)="menu('more-tab-menu')"
+      >Menu 3</ion-button
+    >
   </div>
 </ion-content>
